@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: probed
+source: live probes of the tahoebio.ai host
+host: https://www.tahoebio.ai
+notes: >-
+  No /.well-known/ discovery surface is published. Tahoe runs a Webflow
+  marketing site with no API, OAuth, or agent-plugin endpoints. All probes
+  returned 404 (a valid, expected result recorded for idempotency).
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

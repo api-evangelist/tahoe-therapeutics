@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: https://pypi.org/pypi/tahoe-x1/json
+notes: >-
+  Tahoe publishes no REST API or API client SDK. It does ship one first-party
+  open-source Python library, tahoe-x1 (the Tahoe-x1 single-cell foundation
+  model), on PyPI under Apache-2.0. Listed here as a Package, not an API SDK.
+packages:
+- language: python
+  registry: pypi
+  name: tahoe-x1
+  version: 1.0.0
+  url: https://pypi.org/project/tahoe-x1/
+  install: pip install tahoe-x1
+  source: https://github.com/tahoebio/tahoe-x1
+  license: Apache-2.0
+  summary: 'Tahoe-x1: Perturbation-trained single-cell foundation models with up to 3 billion parameters'
+  author: Tahoe Therapeutics
+  official: true
