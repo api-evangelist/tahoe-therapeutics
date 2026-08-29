@@ -12,6 +12,17 @@ description: >-
   and model weights on Hugging Face, ships the tahoe-x1 Python package on PyPI,
   and operates Tara, an autonomous research agent. The company does not run a
   public REST API. Backed by Amplify Partners; raised $30M in 2025.
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
