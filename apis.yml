@@ -99,5 +99,3 @@ x-enrichment:
   status: enriched
   artifacts_added: 4
   pass: local-v1
-x-parent: tahoe
-x-relationship: product
